@@ -26,8 +26,6 @@
         android:textSize="20sp"
         android:gravity="center"/>
 
-
-
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="125sp">
@@ -43,9 +41,9 @@
                 android:id="@+id/textView8"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/you_can_scroll_here"
                 android:gravity="center"
-                android:textColor="@color/white"/>
+                android:text="@string/you_can_scroll_here"
+                android:textColor="@color/white" />
 
             <TextView
                 android:id="@+id/tvUOB"

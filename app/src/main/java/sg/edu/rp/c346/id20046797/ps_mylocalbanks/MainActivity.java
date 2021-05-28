@@ -85,16 +85,16 @@ public class MainActivity extends AppCompatActivity {
         switch (id) {
             case R.id.EnglishSelection:
                 Toast.makeText(this, "English Selected", Toast.LENGTH_SHORT).show();
-                textDBS.setText("DBS");
-                textOCBC.setText("OCBC");
-                textUOB.setText("UOB");
+                textDBS.setText(R.string.dbs);
+                textOCBC.setText(R.string.ocbc);
+                textUOB.setText(R.string.uob);
                 break;
 
             case R.id.ChineseSelection:
                 Toast.makeText(this, "Chinese Selected", Toast.LENGTH_SHORT).show();
-                textDBS.setText("星展银行");
-                textOCBC.setText("华侨银行");
-                textUOB.setText("大华银行");
+                textDBS.setText(R.string.CN_dbs);
+                textOCBC.setText(R.string.CN_ocbc);
+                textUOB.setText(R.string.CN_uob);
                 break;
         }
 
@@ -127,7 +127,7 @@ public class MainActivity extends AppCompatActivity {
                     Intent intentDBS = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.dbs.com.sg/index/default.page"));
                     startActivity(intentDBS);
                 } else if (item.getItemId() == 1) {
-                    startActivity(new Intent(Intent.ACTION_DIAL, Uri.parse("tel:" + 63330033)));
+                    startActivity(new Intent(Intent.ACTION_DIAL, Uri.parse("tel:" + "18001111111")));
                 } else if (item.getItemId() == 2) {
                     textDBS.setTextColor(Color.RED);
                 } else if (item.getItemId() == 3) {
@@ -140,7 +140,7 @@ public class MainActivity extends AppCompatActivity {
                     Intent intentOCBC = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.ocbc.com/group/gateway"));
                     startActivity(intentOCBC);
                 } else if (item.getItemId() == 1) {
-                    startActivity(new Intent(Intent.ACTION_DIAL, Uri.parse("tel:" + 63633333)));
+                    startActivity(new Intent(Intent.ACTION_DIAL, Uri.parse("tel:" + "18003633333")));
                 } else if (item.getItemId() == 2) {
                     textOCBC.setTextColor(Color.RED);
                 } else if (item.getItemId() == 3) {
@@ -153,7 +153,7 @@ public class MainActivity extends AppCompatActivity {
                     Intent intentUOB = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.uob.com.sg/personal/support/index.page"));
                     startActivity(intentUOB);
                 } else if (item.getItemId() == 1) {
-                    startActivity(new Intent(Intent.ACTION_DIAL, Uri.parse("tel:" + 65350775)));
+                    startActivity(new Intent(Intent.ACTION_DIAL, Uri.parse("tel:" + "18002222121")));
                 } else if (item.getItemId() == 2) {
                     textUOB.setTextColor(Color.RED);
                 } else if (item.getItemId() == 3) {
