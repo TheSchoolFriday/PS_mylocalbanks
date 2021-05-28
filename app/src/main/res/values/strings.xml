@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">PS_mylocalbanks</string>
+    <string name="ocbc">OCBC</string>
+    <string name="uob">UOB</string>
+    <string name="dbs">DBS</string>
+    <string name="home">Home</string>
+    <string name="welcome_back_user">Welcome back, User.</string>
+    <string name="trending_now">Trending Now:</string>
+    <string name="invite_your_friends">Invite Your Friends!</string>
+    <string name="viral_video_how_the_chicken_crossed_the_road">Viral Video: How the Chicken Crossed the Road</string>
+    <string name="viral_video_ffix_enables_cognitive_functions">Viral Video: FFIX Enables Cognitive Functions</string>
+    <string name="trending_news_how_to_eat_sausages_without_using_your_fingers">Trending News: How To Eat Sausages without using your Fingers!?</string>
+    <string name="you_can_scroll_here">You can Scroll here!</string>
+</resources>
